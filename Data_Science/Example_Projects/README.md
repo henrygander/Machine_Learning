@@ -10,9 +10,8 @@ Here is a list of example projects for data science:
 * [Prediction with Regression Models](02_Regression/Regression%20with%20sklearn.ipynb
 "Regression with sklearn.ipynb") - [preview](#regression-models)
 * [Prediction with Polynomial Models and Trees](02_Regression/Polynomial%20Regression%20and%20Trees.ipynb
-"Polynomial Regression.ipynb") - [preview](#polynomial-models)
+"Polynomial Regression.ipynb") - [preview](#Polynomial-Models-and-Trees)
 * [Scaling Pipelines Cross-Validation](02_Regression/Scaling%20Pipelines%20Cross-Validation.ipynb
-                                      02_Regression/Scaling%20Pipelines%20Cross-Validation.ipynb
 "Scaling Pipelines Cross-Validation.ipynb") - [preview](#Scaling-Pipelines-Cross-Validation)
 
 ## Preview of example projects
