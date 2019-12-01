@@ -39,7 +39,7 @@ Here is a list of example projects for data science:
 ![lasso model](images/lasso%20outliers.jpg)<br><br>
 
 ### Polynomial Models and Trees
-**[notebook](02_Regression/Polynomial%20Regression.ipynb
+**[notebook](02_Regression/Polynomial%20Regression%20and%20Trees.ipynb
 "Polynomial Regression.ipynb")**
 
 **Polynomial Features**<br>
