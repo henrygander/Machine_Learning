@@ -9,9 +9,10 @@ Here is a list of example projects for data science:
   "Visualizition with pandas matplotlib seaborn.ipynb") - [preview](#visualization)
 * [Prediction with Regression Models](02_Regression/Regression%20with%20sklearn.ipynb
 "Regression with sklearn.ipynb") - [preview](#regression-models)
-* [Prediction with Polynomial Models](02_Regression/Polynomial%20Regression.ipynb
+* [Prediction with Polynomial Models and Trees](02_Regression/Polynomial%20Regression%20and%20Trees.ipynb
 "Polynomial Regression.ipynb") - [preview](#polynomial-models)
 * [Scaling Pipelines Cross-Validation](02_Regression/Scaling%20Pipelines%20Cross-Validation.ipynb
+                                      02_Regression/Scaling%20Pipelines%20Cross-Validation.ipynb
 "Scaling Pipelines Cross-Validation.ipynb") - [preview](#Scaling-Pipelines-Cross-Validation)
 
 ## Preview of example projects
@@ -38,7 +39,7 @@ Here is a list of example projects for data science:
 ![linear model](images/linear%20outliers.jpg)
 ![lasso model](images/lasso%20outliers.jpg)<br><br>
 
-### Polynomial Models
+### Polynomial Models and Trees
 **[notebook](02_Regression/Polynomial%20Regression.ipynb
 "Polynomial Regression.ipynb")**
 
