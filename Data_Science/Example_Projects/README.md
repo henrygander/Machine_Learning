@@ -13,6 +13,8 @@ Here is a list of example projects for data science:
 "Polynomial Regression.ipynb") - [preview](#Polynomial-Models-and-Trees)
 * [Scaling Pipelines Cross-Validation](02_Regression/Scaling%20Pipelines%20Cross-Validation.ipynb
 "Scaling Pipelines Cross-Validation.ipynb") - [preview](#Scaling-Pipelines-Cross-Validation)
+* [Classification - Logistic Regression](03_Classification/Classification%20Logistic%20Regression%20Precision%20Recall%20F1.ipynb
+"Classification Logistic Regression Precision Recall F1.ipynb") - [preview](#Classification-Logistic-Regression)
 
 ## Preview of example projects
 ### Visualization
@@ -73,4 +75,24 @@ from sklearn.model_selection import cross_val_score
 
 scores = cross_val_score(LinearRegression, X, y, cv=5)
 print(scores)
+```
+### Classification Logistic Regression
+**[notebook](03_Classification/Classification%20Logistic%20Regression%20Precision%20Recall%20F1.ipynb
+"Classification Logistic Regression Precision Recall F1.ipynb")**
+
+**Image Visualization**<br>
+![Image Visualization](images/digit%20images.jpg)<br><br>
+
+**Confusion Matrix**<br>
+![Confusion Matrix](images/confusion%20heatmap.jpg)<br><br>
+
+**Precision, Recall, F1, Classification Report**
+```python
+print( precision_score(y_true, y_pred) )
+print( recall_score(y_true, y_pred) )
+print( f1_score(y_true, y_pred) )
+
+# 0.84
+# 0.89
+# 0.86
 ```
