@@ -26,7 +26,7 @@ Here is a list of example projects for data science:
 **heatmap**<br>
 ![heatmap](images/heatmap%20preview.jpg)<br><br>
 **violinplot**<br>
-![violinplot](images/violinplot%20preview.jpg)<br><br>
+![violinplot](images/violinplot%20preview.jpg)<br><br><br>
 
 ### Regression Models
 **[notebook](02_Regression/Regression%20with%20sklearn.ipynb
@@ -38,7 +38,7 @@ Here is a list of example projects for data science:
 ![OLS summary](images/OLS%20summary.jpg)<br><br>
 **Linear Regression, Runge, Lasso, Elastic Net Comparsion**<br>
 ![linear model](images/linear%20outliers.jpg)
-![lasso model](images/lasso%20outliers.jpg)<br><br>
+![lasso model](images/lasso%20outliers.jpg)<br><br><br>
 
 ### Polynomial Models and Trees
 **[notebook](02_Regression/Polynomial%20Regression%20and%20Trees.ipynb
@@ -49,7 +49,7 @@ Here is a list of example projects for data science:
 **Decision Tree Regression**<br>
 ![decision tree regression](images/regression%20tree.jpg)<br><br>
 **Feature Importances**<br>
-![Feature Importances](images/feature%20importance.jpg)<br><br>
+![Feature Importances](images/feature%20importance.jpg)<br><br><br>
 
 ### Scaling Pipelines Cross-Validation
 **[notebook](02_Regression/Scaling%20Pipelines%20Cross-Validation.ipynb
@@ -76,6 +76,9 @@ from sklearn.model_selection import cross_val_score
 scores = cross_val_score(LinearRegression, X, y, cv=5)
 print(scores)
 ```
+<br><br>
+
+
 ### Classification Logistic Regression
 **[notebook](03_Classification/Classification%20Logistic%20Regression%20Precision%20Recall%20F1.ipynb
 "Classification Logistic Regression Precision Recall F1.ipynb")**
