@@ -15,6 +15,8 @@ Here is a list of example projects for data science:
 "Scaling Pipelines Cross-Validation.ipynb") - [preview](#Scaling-Pipelines-Cross-Validation)
 * [Classification - Logistic Regression](03_Classification/Classification%20Logistic%20Regression%20Precision%20Recall%20F1.ipynb
 "Classification Logistic Regression Precision Recall F1.ipynb") - [preview](#Classification-Logistic-Regression)
+* [SVC Polynomial Kernel GridSearch Trees](03_Classification/SVC%20Polynomial%20Kernel%20GridSearch%20Trees.ipynb
+"SVC Polynomial Kernel GridSearch Trees.ipynb") - [preview](#SVC-Polynomial-Kernel-GridSearch-Trees)
 
 ## Preview of example projects
 ### Visualization
@@ -99,3 +101,25 @@ print( f1_score(y_true, y_pred) )
 # 0.89
 # 0.86
 ```
+<br><br>
+
+### SVC Polynomial Kernel GridSearch Trees
+**[notebook](03_Classification/SVC%20Polynomial%20Kernel%20GridSearch%20Trees.ipynb
+"SVC Polynomial Kernel GridSearch Trees.ipynb")**
+
+**Polynomial Kernel**<br>
+![Polynomial Kernel](images/poly%20kernel%20contour.jpg)<br><br>
+
+**Grid Search**
+```python
+from sklearn.model_selection import GridSearchCV
+
+param_grid = [{'kernel':['linear', 'poly', 'rbf'], 'gamma':['auto']},
+              {'kernel':['sigmoid'], 'gamma':np.linspace(0.01, 0.001, 10)}]
+
+clf = GridSearchCV(estimator=SVC(), param_grid=param_grid, cv=5)
+```
+
+**Decision Tree**<br>
+![Decision Tree Contour](images/decision%20tree%20contour.jpg)<br><br>
+![Decision Tree](images/decision%20tree.jpg)<br><br>
