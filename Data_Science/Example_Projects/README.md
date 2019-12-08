@@ -1,4 +1,4 @@
-# Data Science
+# <b>Data Science</b>
 ## Example Projects
 
 Scroll down to see a preview of the contents: **[preview](#preview-of-example-projects)**
