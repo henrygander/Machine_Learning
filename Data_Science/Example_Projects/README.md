@@ -17,6 +17,8 @@ Here is a list of example projects for data science:
 "Classification Logistic Regression Precision Recall F1.ipynb") - [preview](#Classification-Logistic-Regression)
 * [SVC Polynomial Kernel GridSearch Trees](03_Classification/SVC%20Polynomial%20Kernel%20GridSearch%20Trees.ipynb
 "SVC Polynomial Kernel GridSearch Trees.ipynb") - [preview](#SVC-Polynomial-Kernel-GridSearch-Trees)
+* [Ensemble Bagging Boosting](03_Classification/Ensemble%20Bagging%20Boosting.ipynb
+"Ensemble Bagging Boosting.ipynb") - [preview](#Ensemble-Bagging-Boosting)
 
 ## Preview of example projects
 ### Visualization
@@ -122,4 +124,14 @@ clf = GridSearchCV(estimator=SVC(), param_grid=param_grid, cv=5)
 
 **Decision Tree**<br>
 ![Decision Tree Contour](images/decision%20tree%20contour.jpg)<br><br>
-![Decision Tree](images/decision%20tree.jpg)<br><br>
+![Decision Tree](images/decision%20tree.jpg)<br><br><br>
+
+### Ensemble Bagging Boosting
+**[notebook](03_Classification/Ensemble%20Bagging%20Boosting.ipynb
+"Ensemble Bagging Boosting.ipynb")**
+
+**Titanic Dataset**
+
+**Scatter Plot**
+
+**One Hot Encoding**
